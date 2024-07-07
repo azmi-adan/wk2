@@ -1,0 +1,29 @@
+ 
+body {
+    font-family: Arial, sans-serif;
+    background-color: aquamarine;
+}
+
+#shopping-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+#shopping-list li {
+    padding: 10px;
+    border-bottom: 1px solid green;
+    align-items: center;
+}
+
+#shopping-list li.purchased {
+    text-decoration: line-through;
+    background-color: bisque;
+align-items: center;
+    
+}
+
+#shopping-list li:hover {
+    background-color: lightblue;
+}
