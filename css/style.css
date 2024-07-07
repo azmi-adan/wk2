@@ -1,29 +1,24 @@
  
 body {
     font-family: Arial, sans-serif;
-    background-color: aquamarine;
 }
 
-#shopping-list {
+#list-container {
     list-style: none;
     padding: 0;
     margin: 0;
-    text-align: center;
 }
 
-#shopping-list li {
+#list-container li {
     padding: 10px;
-    border-bottom: 1px solid green;
-    align-items: center;
+    border-bottom: 1px solid #ccc;
 }
 
-#shopping-list li.purchased {
+#list-container li:last-child {
+    border-bottom: none;
+}
+
+.purchased {
     text-decoration: line-through;
-    background-color: bisque;
-align-items: center;
-    
-}
-
-#shopping-list li:hover {
-    background-color: lightblue;
+    background-color: #ccc;
 }
