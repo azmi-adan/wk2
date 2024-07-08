@@ -107,4 +107,4 @@ The code is organized into the following sections:
 
 The application uses local storage to persist the shopping list. When the user adds, edits, or clears the list, the changes are saved to local storage. When the user reloads the page, the list is loaded from local storage.
 
-on the local storage part its not so clear especially on the finction i used
+ on the local storage part its not so clear especially on the finction i used
